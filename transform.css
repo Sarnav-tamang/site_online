@@ -1,0 +1,106 @@
+div[class="divi"]{
+    margin-bottom: 1.5em;
+    padding: 5px 0;
+    width: 270px;
+    padding-bottom: 0.6em;
+    padding-left: 5px;
+    box-sizing: border-box;
+    margin-left: 1em;
+ 
+}
+fieldset[id="fset"]{
+    border:3px dotted rgba(31, 17, 233, 0.8);
+    width: 400px;
+    min-height: 5em;
+
+}
+div[class="right"]{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    bottom: 25em;
+   
+}
+div[id="headings"]{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h2[id="h3ood"],h1[id="h1ood"]{
+    margin: 2px 0;
+
+}
+.span1{
+    border-bottom: 2px groove #1b1b32;
+}
+fieldset[class="myfset"]{
+    border:6px double rgba(93,90,93,0.7);
+}
+span[class="span2"]{
+    border-bottom:3px double #1b1b32;
+    
+}
+div[id="rightwo"]{
+    margin-top: 2em;
+    margin-right: 1em;
+}
+div[class="chckbox1"]{
+    padding: 0.5em 0;
+}
+div[class="radio"]{
+    margin-top:1em;
+}
+
+div[id="rightone"]{
+    margin-right: 1em;
+}
+
+div#rightfour{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    position: relative;
+    bottom: 35em;
+    
+}
+input#submit{
+    margin-top: 1em;
+    border-radius: 4px;
+    background-color: hsl(333, 73%, 71%);
+    color:crimson;
+    border:4px  rgb(219, 77, 77);
+    border-style:double;
+    padding: 1.2em 1em;
+    text-shadow: 2px 4px 3px hsl(333, 90%, 50%);
+    font-size:1em;
+    font-style: italic;
+    
+}
+div[id="righthree"]{
+    position: relative;
+    bottom: 30em;
+}
+
+label#lbinp{
+    display: block;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left:1em ;
+}
+#txtool{
+    margin: 10px 1em;
+    color: hsl(163,80%,50%);
+    background-color: #1b1b32;
+}
+div#end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+article#cross{
+    font-size: x-large;
+}

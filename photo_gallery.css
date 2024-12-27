@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+#box{
+    width: 100%;
+    border:5px groove hsl(180,40%,50%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+}
+.pic{
+    object-fit: cover;
+    max-width: 300px;
+    max-height: 200px;
+
+}
